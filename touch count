@@ -1,0 +1,9 @@
+cat << 'EOF' > count.sh
+#!/bin/bash
+for i in {1..50}
+do
+  echo $i
+done
+EOF
+chmod +x count.sh
+./count.sh
